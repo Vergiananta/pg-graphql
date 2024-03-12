@@ -1,0 +1,32 @@
+{
+  "name": "pg-graphql",
+  "version": "1.0.0",
+  "description": "graphql apollo postgres crud server",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon -w src --ext ts --exec ts-node src/index.ts"
+  },
+  "keywords": [
+    "graphql",
+    "typescript",
+    "postgres",
+    "apollo",
+    "crud"
+  ],
+  "author": "Mejan",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.4",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.5"
+  },
+  "dependencies": {
+    "apollo-server": "^2.15.0",
+    "graphql": "^15.1.0",
+    "pg": "^8.2.1",
+    "reflect-metadata": "^0.1.13",
+    "type-graphql": "^1.0.0-rc.2",
+    "typeorm": "^0.2.25",
+    "typeorm-encrypted": "^0.5.4"
+  }
+}
